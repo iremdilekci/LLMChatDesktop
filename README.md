@@ -1,32 +1,35 @@
-📌 Proje Hakkında
+# Kural Tabanlı Masaüstü Chatbot
 
-Bu proje, C# ve Windows Forms kullanılarak geliştirilmiş, kural tabanlı bir masaüstü chatbot uygulamasıdır. Uygulama, kullanıcıdan alınan metin girdilerini anahtar kelime eşleştirme yöntemiyle analiz ederek uygun cevaplar üretmektedir. Yapay zekâ veya harici API kullanılmamıştır.
+## Açıklama
 
-🧠 Kullanılan Yaklaşım
+C# ve Windows Forms kullanılarak geliştirilmiş, kural tabanlı bir masaüstü chatbot uygulamasıdır. Kullanıcıdan alınan mesajlar anahtar kelimelere göre analiz edilerek önceden tanımlanmış cevaplar üretilmektedir. Yapay zekâ ve harici API kullanılmamıştır.
 
-Rule-Based Chatbot
-Anahtar kelime eşleştirme
-Senaryo tabanlı cevap üretimi
-Basit durum yönetimi (kullanıcı adı hafızası)
-Sohbet geçmişinin dosyaya kaydedilmesi
+## Kullanılan Teknolojiler
 
-🛠 Kullanılan Teknolojiler
+* C#
+* .NET Framework
+* Windows Forms
+* Visual Studio
 
-C#
-.NET Framework
-Windows Forms
-Visual Studio
+## Özellikler
 
-✨ Özellikler
+* Mesaj gönderme (Buton / Enter)
+* Anahtar kelime eşleştirme
+* Kişiselleştirilmiş cevaplar
+* Sohbet geçmişi kaydı
+* Menü desteği (Temizle / Çıkış / Hakkında)
 
-Mesaj gönderme (Buton ve Enter ile)
-Kişiselleştirilmiş cevaplar
-Sohbet temizleme
-Menü tabanlı kontrol
-Sohbet geçmişi kaydı
+## Çalıştırma
 
-▶️ Çalıştırma
+* Projeyi Visual Studio ile açın
+* Uygulamayı çalıştırın
+* Chatbot ile mesajlaşın
 
-Projeyi Visual Studio ile açın
-Form1.cs üzerinden uygulamayı çalıştırın
-Mesaj yazarak chatbot ile etkileşime geçin
+## Örnek Komutlar
+
+* selam
+* yardım
+* saat
+* tarih
+* benim adım …
+* temizle
